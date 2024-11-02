@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="second.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="company" class="nav-left" onmouseenter="changeCompany()" onmouseout="normal()">Company</div>
+
+            <div class="nav-right">
+                <ul>
+                <li class="About">About</li>
+                <li class="sale">Sales</li>
+                <li class="settings">Settings</li>
+            </ul>
+        </div>
+        <div class="dark-theme" onclick="darkTheme()" ondblclick="lightTheme()">Dark Theme</div>
+        <button id="addborder">Addborder</button>
+   
+        <div id="Login-btn">Login</div>
+        <button id="open"> open sidebar</button>
+        <button id="close"> close sidebar</button>
+
+        </nav>
+        
+    </header>
+    <div class="logintitle" id="Loginsection">
+        <h2 class="buttonlogin">Login</h2>
+        <div id="closebtn">Close</div>
+        <input type="text" placeholder="Enter your name"><br>
+        <input type="password" placeholder="Enter your password"><br>
+        <button id="submit-btn">Submit</button>
+    </div>
+    
+
+    <div class="sidebar">
+        <ul>
+            <li>Dashboard</li>
+            <li class="revenues">Revenue</li>
+            <li class="customers">Customers</li>
+            <li class="reports">Reports</li>
+        </ul>
+    </div>  
+    <div class="main">
+    <div  class="rev" onmouseover="eleHover(this)" onmouseout="eleOut(this)">>
+            <h2>Revenue</h2>
+            <p>This is revenue block</p>
+        </div>
+        <div class="rev" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Sales</h2>
+            <p>This is sales block</p>
+        </div>
+        <div class="rev" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <p>This is customers block</p>
+        </div>
+        <div class="rev" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Revenue</h2>
+            <p>This is revenue block</p>
+        </div>
+        <div class="rev" onmouseover="eleHover(this)" onmouseout="eleOut(this)">
+            <h2>Sales</h2>
+            <p>This is sales block</p>
+    </div>
+    <form id="myform">
+        <label for="nameInput">Name</label>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+    
+    <div class="user-details">
+        <h3>User details</h3>
+        <h2 id="name" style="color:blue"></h2>
+    </div>
+    
+    <select id="mycolors">
+        <option value="red">RED</option>
+        <option value="green">GREEN</option>
+    </select>
+    
+    <div id="box"></div>
+    </div>
+
+    
+    
+
+    <script src="scr.js"></script>
+</body>
+</html>

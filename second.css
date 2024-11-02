@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin:0%;
+    padding:0%;
+    font-family:'Times New Roman', Times, serif ;
+}
+.nav-left{
+    font-size: large;
+    font-style:normal;
+    text-align: center;
+    height:auto;
+    float:right;
+    width: 100px;
+}
+header{
+    background-color: rgb(218, 252, 24);
+    font-size:medium
+}
+.sidebar{
+    background-color: rgb(255, 72, 0);
+    font-size:larger;
+    font-style:normal;
+    text-align:justify;
+}
+nav{
+    margin:0px;
+    padding: 0%;
+    font-size: 1.2em;
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align: center;
+    height: 80px;
+}
+ nav ul{
+    display:flex;
+    list-style-type: none;
+    overflow:hidden;
+   
+}
+.dark-theme:hover{
+    background-color:red;
+    padding:10px;
+    border-radius: 10px;
+}
+nav li{
+    display:block;
+    color: blue;
+    text-align: center;
+    height:auto;
+    float:left;
+   letter-spacing:0.5;
+   width: 100px;
+   transition:margin-right 0.5 ease;
+}
+nav ul li:hover{
+    background-color: rgb(241, 227, 236);
+    border-radius:10% 20% 30% 40%;
+}
+nav :hover{
+    background-color: rgb(201, 168, 189);
+ 
+}
+.sidebar{
+    display:flex;
+    color: blue;
+    text-align: center;
+    height:auto;
+    float:left;
+    font-size:large;
+   transition:margin-right 0.5s ease;
+   padding:10px 20px;
+   overflow: hidden;
+   width:auto;
+   
+}
+ 
+.sidebar li{
+        display:block;
+        color: blue;
+        text-align:center;
+        height:auto;
+        font-size:medium;
+        height: 100px;
+        width:100px;
+        text-decoration:solid;
+        padding:10px 10px 10px 10px;
+        background-color: greenyellow;
+        transition:0.3s;
+        margin-top: 10px;
+        margin-bottom:10px;
+        margin-left: 1px;
+        margin-right: 10px;;
+}
+.sidebar ul li:hover{
+    background-color: rgb(241, 227, 236);
+    border-radius:10% 20% 30% 40%;
+    color: black;
+}
+.sidebar  :hover{
+        background-color: rgb(236, 24, 162);
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+text-align: center;
+margin-left: 200px;
+    padding: 20px;
+}
+
+   
+.rev h2{
+    margin-bottom: 10px;
+    color: black;
+}
+.rev p {
+    color:rgb(19, 236, 19);
+}
+.logintitle{
+    position: fixed;
+
+    color: blue;
+    border-radius: 5px;
+    padding:20px;
+    justify-content: center;
+    display:none;
+    flex-direction:column;
+    border: 2px solid rgb(228, 17, 17);
+  }  
+  .closebtn{
+    color: blue;
+    text-align:center;
+    float: right;
+    display:flex;
+    justify-content: flex-end;
+ 
+  }
+ #Loginsection{
+    text-align: center;
+    display: none;
+ }
+ #Login-btn{
+    cursor: pointer;
+ }
+
+.logintitle input[type="text"],
+.logintitle input[type="password"],
+.logintitlebutton {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#closebtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#submit-btn {
+    background-color: #1768AC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#myForm {
+    display:none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.user-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+#myColors {
+    width: 200px;
+    font-size: large;
+    margin-left: 300px;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-left: 500px;
+}
+
